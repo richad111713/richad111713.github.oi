@@ -1,0 +1,31 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+#content {
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    color: #333333;
+    font-size: 1.2em;
+}
+
+/* Simple transition for color change */
+p:hover {
+    cursor: pointer;
+    transition: color 0.5s ease-in-out;
+}
